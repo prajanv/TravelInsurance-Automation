@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-06T10:23:37 IST" name="Default suite" finished-at="2020-11-06T10:26:39 IST" duration-ms="182318">
+    <groups>
+      <group name="Smoke Suite">
+        <method signature="PolicyBazaarTest.getItemsUnderHealthInsurance()[pri:0, instance:TestCases.PolicyBazaarTest@fa36558]" name="getItemsUnderHealthInsurance" class="TestCases.PolicyBazaarTest"/>
+        <method signature="PolicyBazaarTest.isHealthInsuranceClickable()[pri:0, instance:TestCases.PolicyBazaarTest@fa36558]" name="isHealthInsuranceClickable" class="TestCases.PolicyBazaarTest"/>
+      </group> <!-- Smoke Suite -->
+      <group name="Regression Suite">
+        <method signature="PolicyBazaarTest.displayTravelInsurance(java.util.Hashtable)[pri:0, instance:TestCases.PolicyBazaarTest@fa36558]" name="displayTravelInsurance" class="TestCases.PolicyBazaarTest"/>
+        <method signature="PolicyBazaarTest.getCarInsuranceDetails(java.util.Hashtable)[pri:0, instance:TestCases.PolicyBazaarTest@fa36558]" name="getCarInsuranceDetails" class="TestCases.PolicyBazaarTest"/>
+      </group> <!-- Regression Suite -->
+    </groups>
+    <test started-at="2020-11-06T10:23:37 IST" name="Default test" finished-at="2020-11-06T10:26:39 IST" duration-ms="182318">
+      <class name="TestCases.PolicyBazaarTest">
+        <test-method signature="displayTravelInsurance(java.util.Hashtable)[pri:0, instance:TestCases.PolicyBazaarTest@fa36558]" started-at="2020-11-06T10:23:40 IST" name="displayTravelInsurance" data-provider="displayTravelInsuranceTestData" finished-at="2020-11-06T10:25:08 IST" duration-ms="87695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TravellerEmail=priya@gmail.com, StudentAge2=21, StartDate=10/12/2020, StudentAge1=22, SelectSum=50000, Destination=Germany, EndDate=20/12/2020, Comments=Valid Details, SelectSort=Premium, TravellerName=Priya, TravellerPhone=9876543210, Honorific=2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayTravelInsurance -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.PolicyBazaarTest@fa36558]" started-at="2020-11-06T10:25:08 IST" name="closeBrowser" finished-at="2020-11-06T10:25:10 IST" duration-ms="2344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="getCarInsuranceDetails(java.util.Hashtable)[pri:0, instance:TestCases.PolicyBazaarTest@fa36558]" started-at="2020-11-06T10:25:11 IST" name="getCarInsuranceDetails" data-provider="getCarInsuranceDetailsTestData" finished-at="2020-11-06T10:25:52 IST" duration-ms="41240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ClientEmail=priYAA2A#mail.com, ClientName=Priya, ClientMobileNo=34566, Comments=Invalid Details}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCarInsuranceDetails -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.PolicyBazaarTest@fa36558]" started-at="2020-11-06T10:25:52 IST" name="closeBrowser" finished-at="2020-11-06T10:25:52 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="getItemsUnderHealthInsurance()[pri:0, instance:TestCases.PolicyBazaarTest@fa36558]" started-at="2020-11-06T10:25:52 IST" name="getItemsUnderHealthInsurance" finished-at="2020-11-06T10:26:16 IST" duration-ms="23670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItemsUnderHealthInsurance -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.PolicyBazaarTest@fa36558]" started-at="2020-11-06T10:26:16 IST" name="closeBrowser" finished-at="2020-11-06T10:26:16 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="isHealthInsuranceClickable()[pri:0, instance:TestCases.PolicyBazaarTest@fa36558]" started-at="2020-11-06T10:26:16 IST" name="isHealthInsuranceClickable" finished-at="2020-11-06T10:26:39 IST" duration-ms="22767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isHealthInsuranceClickable -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.PolicyBazaarTest@fa36558]" started-at="2020-11-06T10:26:39 IST" name="closeBrowser" finished-at="2020-11-06T10:26:39 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.PolicyBazaarTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
